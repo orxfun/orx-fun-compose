@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<GenerateDocumentationFile>False</GenerateDocumentationFile>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<VersionPrefix>0.0.1</VersionPrefix>
+		<Description>A function composition library for C#, heavily experimental right now, would be more practical if C# gets generic operator overloading.</Description>
+		<PackageProjectUrl>https://orxfun.github.io/orx-fun-compose/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/orxfun/orx-fun-compose</RepositoryUrl>
+		<Authors>ugur-arikan</Authors>
+		<PackageTags>functional;composition;railway-oriented;monad;option;result;fluent</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Orx.Fun.Option" Version="1.0.0" />
+    <PackageReference Include="Orx.Fun.Result" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
