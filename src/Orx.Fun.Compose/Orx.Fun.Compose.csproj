@@ -8,7 +8,7 @@
   </PropertyGroup>
 
 	<PropertyGroup>
-		<VersionPrefix>0.0.1</VersionPrefix>
+		<VersionPrefix>0.0.2</VersionPrefix>
 		<Description>A function composition library for C#, heavily experimental right now, would be more practical if C# gets generic operator overloading.</Description>
 		<PackageProjectUrl>https://orxfun.github.io/orx-fun-compose/</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/orxfun/orx-fun-compose</RepositoryUrl>
@@ -27,7 +27,7 @@
 
   <ItemGroup>
     <PackageReference Include="Orx.Fun.Option" Version="1.0.0" />
-    <PackageReference Include="Orx.Fun.Result" Version="1.0.0" />
+    <PackageReference Include="Orx.Fun.Result" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
